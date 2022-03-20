@@ -1,0 +1,15 @@
+/home/anatoly/Desktop/gltf/bin/Debug/net6.0/gltf
+/home/anatoly/Desktop/gltf/bin/Debug/net6.0/gltf.deps.json
+/home/anatoly/Desktop/gltf/bin/Debug/net6.0/gltf.runtimeconfig.json
+/home/anatoly/Desktop/gltf/bin/Debug/net6.0/gltf.dll
+/home/anatoly/Desktop/gltf/bin/Debug/net6.0/gltf.pdb
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.csproj.AssemblyReference.cache
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.GeneratedMSBuildEditorConfig.editorconfig
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.AssemblyInfoInputs.cache
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.AssemblyInfo.cs
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.csproj.CoreCompileInputs.cache
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.dll
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/refint/gltf.dll
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.pdb
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/gltf.genruntimeconfig.cache
+/home/anatoly/Desktop/gltf/obj/Debug/net6.0/ref/gltf.dll
