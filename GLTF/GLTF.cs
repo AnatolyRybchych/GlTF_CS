@@ -35,6 +35,26 @@ public class GLTF
                if(buf.CheckRequirements() == false) return false;
           foreach (var buf in bufferViews)
                if(buf.CheckRequirements(buffers.Length) == false) return false;
+          foreach (var camera in cameras)
+               if(camera.CheckRequirements() == false) return false;
+          foreach (var image in images)
+               if(image.CheckRequirements() == false) return false;
+          foreach (var material in materials)
+               if(material.CheckRequirements(textures.Length) == false) return false;
+          foreach (var mesh in meshes)
+               if(mesh.CheckRequirements() == false) return false;
+          foreach (var node in nodes)
+               if(node.CheckRequirements(cameras.Length, nodes.Length,
+               skins.Length, meshes.Length) == false) return false;
+          foreach (var sampler in samplers)
+               if(sampler.CheckRequirements() == false) return false;
+          if(scene < 0 || scene >= scenes.Length) return false;
+          foreach (var scen in scenes)
+               if(scen.CheckRequirements(nodes.Length) == false) return false;
+          foreach (var skin in skins)
+               if(skin.CheckRequirements(accessors.Length, nodes.Length) == false) return false;
+          foreach (var texture in textures)
+               if(texture.CheckRequirements(samplers.Length, images.Length) == false) return false;
           return true;
      }
 }

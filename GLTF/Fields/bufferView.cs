@@ -8,7 +8,7 @@ public class bufferView
     public int byteOffset { get; set; } = 0;
     public int byteLength { get; set; } = 0;//required >= 1
     public int? byteStride { get; set; } = null;//can be null or  >= 4 && <= 252
-    public int target { get; set; } //requires one of {34962, 34963} 
+    public int target { get; set; } = 34962; //requires one of {34962, 34963} 
 
     public bool CheckRequirements(int buffersCount)
     {

@@ -10,6 +10,11 @@ public class mesh
     public primitive[] primitives { get; set; } = new primitive[0];
     public double[]? weights { get; set; } = null;// if not null requires lengh >= 1
 
+    public bool CheckRequirements()
+    {
+        return (weights == null || weights.Length >= 1);
+    }
+
     public static class Fields
     {
         public class primitive

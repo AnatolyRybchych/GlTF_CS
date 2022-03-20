@@ -11,6 +11,24 @@ public class camera
     public perspective? perspective { get; set; }// requires not null if type "perspective"
     public string type { get; set; } = "";//required one of {"perspective", "orthographic"}
 
+    public bool CheckRequirements()
+    {
+        switch (type)
+        {
+            case "perspective":
+                if(perspective == null || perspective.yfov == null 
+                || perspective.znear == null) return false;
+                else return true;
+            case "orthographic":
+                if(orthographic == null || orthographic.xmag == null 
+                || orthographic.ymag == null || orthographic.zfar == null ||
+                orthographic.znear == null) return false;
+                else return true;
+            default: 
+                return false;
+        }
+
+    }
     public static class Fields
     {
         public class perspective
