@@ -1,8 +1,11 @@
 # gltf parser
+gltf specification v2 parser (maybe abstract wrapper)
 
-## offitial format specification
+## offitial format specification:
 https://github.com/KhronosGroup/glTF/tree/main/specification/2.0/schema
 
+
+## code example
 
 ```c#
 var gltfText = File.ReadAllText("gltf_file.gltf");
