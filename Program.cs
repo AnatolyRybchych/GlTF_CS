@@ -31,6 +31,7 @@ class Program
         while(Window.IsExiting == false)
         {
             Window.ProcessEvents();
+    
             Render();
         }
     }

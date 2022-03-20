@@ -32,6 +32,7 @@ public class ObjectGLTF
 
         translator.DefineNodeSkins(nodes, skins);
         
+        
     }
 
     public string[] extensionsUsed { get; private set; }
