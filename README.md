@@ -1,5 +1,5 @@
 # gltf parser
-gltf specification v2 parser (maybe abstract wrapper)
+gltf specification v2 parser (maybe abstract wrapper for scene drawing without gl dependency)
 
 ## offitial format specification:
 https://github.com/KhronosGroup/glTF/tree/main/specification/2.0/schema
